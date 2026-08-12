@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Govindh Kishore 👋</h1>
 
-<h3 align="center">B.Sc. (Hons.) Mathematics & Computing @ BIT Mesra | Building at the intersection of Information Retrieval and LLMs</h3>
+<h3 align="center">Math and Computing student</h3>
 
 <p align="center">
   <a href="mailto:govindhkishore7@gmail.com"><img src="https://img.shields.io/badge/Email-govindhkishore7%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" /></a>
