@@ -40,10 +40,10 @@ Contributing to a production Python framework for LLM orchestration and RAG.
 A three-signal hybrid retrieval CLI fusing **BM25 lexical search**, **dense vector search**, and **AST-derived call-graph structural retrieval** via Reciprocal Rank Fusion.
 
 - Evaluated on a hand-labeled 30-query benchmark over ~1,000+ indexed functions
-- **Recall@10: 0.67** (lexical + semantic fusion) vs. **0.57** semantic-alone — a +17% relative gain
+- **Recall@10: 0.67** (lexical + semantic fusion) vs. **0.57** semantic-alone - a +17% relative gain
 - **MRR@5: 0.43**
 - Implemented multi-source BFS call-graph retrieval with hop-decay scoring and a tunable structural-weight flag
-- Diagnosed and documented a real node-collision bug (bare-function-name keying causing cross-class collisions, e.g. sklearn's repeated `fit`/`transform`) that degraded structural retrieval — root-caused it down to the graph construction layer
+- Diagnosed and documented a real node-collision bug (bare-function-name keying causing cross-class collisions, e.g. sklearn's repeated `fit`/`transform`) that degraded structural retrieval - root-caused it down to the graph construction layer
 - Shipped as a production CLI: OS-native keyring for API keys, SHA-256 multi-codebase index management, mtime-based staleness detection, lazy imports cutting startup latency from ~20s to ~6s
 
 #### 🎯 [Assessment Recommendation System](https://github.com/GovindhKishore/Assessment_Recommendation_System)
