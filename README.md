@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="mailto:govindhkishore7@gmail.com"><img src="https://img.shields.io/badge/Email-govindhkishore7%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/govindh-kishore-2b5922323/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/GovindhKishore"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white" /></a>
 </p>
 
 ---
