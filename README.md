@@ -34,7 +34,7 @@ Contributing to a production Python framework for LLM orchestration and RAG.
 
 ### 🚀 Featured Projects
 
-#### 🔍 [Hybrid Code Search Engine](#)
+#### 🔍 [Hybrid Code Search Engine](https://github.com/GovindhKishore/codesearch)
 `Python` `rank-bm25` `ChromaDB` `sentence-transformers` `NetworkX`
 
 A three-signal hybrid retrieval CLI fusing **BM25 lexical search**, **dense vector search**, and **AST-derived call-graph structural retrieval** via Reciprocal Rank Fusion.
@@ -46,7 +46,7 @@ A three-signal hybrid retrieval CLI fusing **BM25 lexical search**, **dense vect
 - Diagnosed and documented a real node-collision bug (bare-function-name keying causing cross-class collisions, e.g. sklearn's repeated `fit`/`transform`) that degraded structural retrieval — root-caused it down to the graph construction layer
 - Shipped as a production CLI: OS-native keyring for API keys, SHA-256 multi-codebase index management, mtime-based staleness detection, lazy imports cutting startup latency from ~20s to ~6s
 
-#### 🎯 [Assessment Recommendation System](#)
+#### 🎯 [Assessment Recommendation System](https://github.com/GovindhKishore/Assessment_Recommendation_System)
 `Python` `FastAPI` `ChromaDB` `Gemini API` `Streamlit`
 
 A modular AI backend for embedding-based recommendation over scraped product data.
@@ -61,7 +61,7 @@ A modular AI backend for embedding-based recommendation over scraped product dat
 
 **Languages:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
 
-**ML / IR:** ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+**ML / IR:** ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 **Backend / Infra:** ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-white?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
@@ -76,18 +76,3 @@ A modular AI backend for embedding-based recommendation over scraped product dat
 Relevant coursework: Object-Oriented Programming (Java), Data Structures & Algorithms, Discrete Mathematics & Graph Theory, Information Retrieval
 
 ---
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&hide_title=false" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=default" />
-</p>
-
----
-
-<p align="center"><i>Open to Summer 2027 SWE internship opportunities — reach out via email.</i></p>
