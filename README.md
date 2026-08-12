@@ -28,7 +28,7 @@ Contributing to a production Python framework for LLM orchestration and RAG.
 |---|---|
 | [`#11581`](https://github.com/deepset-ai/haystack/pull/11581) | Added `run_async` to `LLMEvaluator`, `FaithfulnessEvaluator`, and `ContextRelevanceEvaluator` - enables concurrent evaluation in async apps, with runtime detection of async-capable chat generators and automatic thread-pool fallback for sync-only ones |
 | [`#11552`](https://github.com/deepset-ai/haystack/pull/11552) | Fixed a silent serialization bug in `LLMEvaluator.to_dict` that caused pipeline reloads to silently reset user-configured parameters |
-| [`#3412`](https://github.com/deepset-ai/haystack-core-integrations) | Extended `GoogleGenAITextEmbedder`, `GoogleGenAIDocumentEmbedder`, and `GoogleGenAIMultimodalDocumentEmbedder` with timeout/retry support, full serialization round-trips, and test coverage |
+| [`#3412`](https://github.com/deepset-ai/haystack-core-integrations/pull/3412) | Extended `GoogleGenAITextEmbedder`, `GoogleGenAIDocumentEmbedder`, and `GoogleGenAIMultimodalDocumentEmbedder` with timeout/retry support, full serialization round-trips, and test coverage |
 
 ---
 
