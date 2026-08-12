@@ -72,7 +72,6 @@ A modular AI backend for embedding-based recommendation over scraped product dat
 ### 🎓 Education
 
 **Birla Institute of Technology, Mesra** - B.Sc. (Hons.) Mathematics and Computing
-*Expected May 2028 · CGPA: 8.46/10.0*
 Relevant coursework: Object-Oriented Programming (Java), Data Structures & Algorithms, Discrete Mathematics & Graph Theory, Information Retrieval
 
 ---
