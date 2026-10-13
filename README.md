@@ -39,11 +39,10 @@ Contributing to a production Python framework for LLM orchestration and RAG.
 
 A three-signal hybrid retrieval CLI fusing **BM25 lexical search**, **dense vector search**, and **AST-derived call-graph structural retrieval** via Reciprocal Rank Fusion.
 
-- Evaluated on a hand-labeled 30-query benchmark over ~1,000+ indexed functions
-- **Recall@10: 0.67** (lexical + semantic fusion) vs. **0.57** semantic-alone - a +17% relative gain
-- **MRR@5: 0.43**
-- Implemented multi-source BFS call-graph retrieval with hop-decay scoring and a tunable structural-weight flag
-- Diagnosed and documented a real node-collision bug (bare-function-name keying causing cross-class collisions, e.g. sklearn's repeated `fit`/`transform`) that degraded structural retrieval - root-caused it down to the graph construction layer
+- Evaluated across five retrieval configurations on a 30-query benchmark over ~1,260 indexed functions across scikit-learn's `model_selection`, `preprocessing`, and other subpackages
+- **MRR@5: 0.6022** and **Recall@20: 0.7889** (BM25 + semantic + graph fusion) vs. **MRR@5: 0.5122**, **Recall@20: 0.7222** semantic-alone, and **MRR@5: 0.5389**, **Recall@20: 0.7389** BM25+semantic without the graph
+- Implemented call-graph structural retrieval, scoring functions by call relationships to top BM25/vector results - summing decayed contributions (0.5^hop) from every reaching seed, weighted by inverse seed rank
+- Identified degraded structural performance because of nodes colliding on bare function names (e.g. sklearn's repeated `fit`/`transform` across estimator classes), fixed via collision-free graph construction keying nodes on globally-unambiguous (name, class) pairs - driving the best overall fusion result (+0.063 MRR@5, +0.05 Recall@20 vs. BM25+semantic alone)
 - Shipped as a production CLI: OS-native keyring for API keys, SHA-256 multi-codebase index management, mtime-based staleness detection, lazy imports cutting startup latency from ~20s to ~6s
 
 #### 🎯 [Assessment Recommendation System](https://github.com/GovindhKishore/Assessment_Recommendation_System)
