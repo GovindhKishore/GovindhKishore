@@ -34,7 +34,7 @@ Contributing to a production Python framework for LLM orchestration and RAG.
 
 ### 🚀 Featured Projects
 
-#### 🔍 [funseek](https://github.com/GovindhKishore/funseek)
+#### 🔍 [funseek](https://github.com/GovindhKishore/funseek) | [PyPI](https://pypi.org/project/funseek)
 `Python` `rank-bm25` `ChromaDB` `sentence-transformers` `NetworkX`
 
 A three-signal hybrid retrieval CLI fusing **BM25 lexical search**, **dense vector search**, and **AST-derived call-graph structural retrieval** via Reciprocal Rank Fusion.
